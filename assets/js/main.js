@@ -136,7 +136,7 @@
 						$image.css('background-position', x);
 
 				// Hide original.
-					$image.hide();
+					// $image.hide();
 
 			// Link.
 				if ($link.length > 0) {
@@ -225,7 +225,7 @@
 						$this.css('background-image', 'url(' + $img.attr('src') + ')');
 
 					// Hide original.
-						$image.hide();
+						//$image.hide();
 
 				}
 
