@@ -1,0 +1,24 @@
+<body>
+
+<!-- Import the component -->
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+<style>
+model-viewer {
+  width: 800px;
+  height: 800px;
+}
+
+body {
+  background: black;
+}
+</style>
+
+Model 1
+<model-viewer bounds="tight" src="assets/example-gltf.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls environment-image="neutral" shadow-intensity="1" exposure="0.25" style="background: transparent;">
+</model-viewer>
+
+Model 2
+<model-viewer bounds="tight" src="assets/UntitledScene.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls environment-image="neutral" shadow-intensity="1" exposure="0.25">
+</model-viewer>
+</body>
